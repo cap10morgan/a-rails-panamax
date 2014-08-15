@@ -1,0 +1,23 @@
+---
+name: rails
+description: Testing Rails app template
+keywords: rails, postgresql, nginx, puma, jruby, ruby
+type: Rails
+documentation: ''
+images:
+- name: postgres
+  source: postgres:9.4
+  category: DB
+  type: Default
+- name: nginx
+  source: nginx:1.7
+  category: Web
+  type: Default
+- name: qnib_elk
+  source: qnib/elk:latest
+  category: Logging
+  type: Default
+- name: rails
+  source: rails:latest
+  category: App
+  type: Default
